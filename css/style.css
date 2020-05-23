@@ -1,0 +1,76 @@
+html,body{
+	background-color: black;
+	color: #444 !important;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+.nav-text{
+	color: #666 !important;
+	font-weight: 400;
+	font-size: 1.25rem;
+}
+
+.nav-text:hover{
+	color: #bbb !important;
+}
+
+.text-center>img.rounded-circle{
+	max-height: 200px;
+	width: auto;
+}
+
+.border{
+	border: 1.5px solid #dee2e6 !important;
+}
+
+.display-4{
+  font-size: 3.2rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+.contact-icons>a{
+	display: inline-block;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.project-card{
+	/*border-bottom: 1px solid #ccc;*/
+}
+
+.project-img{
+	height: 180px;
+}
+
+hr{
+	border-top: 1px solid #ccc;
+	border-bottom: none;
+	width: 90%;
+}
+
+@media (min-width: 576px){
+	nav>a{
+		margin-left: 32%;
+	}
+	.text-center>img.rounded-circle{
+		max-height: 300px;
+		width: auto;
+	}
+}
+
+@media (max-width: 576px){
+	.display-4{
+	  	font-size: 2.38rem;
+	}
+	.project-img{
+		margin-bottom: 10px;
+	}
+	.project-card-txt{
+		text-align: center !important;
+	}
+}
+
