@@ -1,6 +1,6 @@
 html,body{
 	background-color: black;
-	color: #444 !important;
+	color: #666 !important;
 }
 
 a:hover{
@@ -8,13 +8,13 @@ a:hover{
 }
 
 .nav-text{
-	color: #666 !important;
+	color: #333 !important;
 	font-weight: 400;
 	font-size: 1.25rem;
 }
 
 .nav-text:hover{
-	color: #bbb !important;
+	color: #999 !important;
 }
 
 .text-center>img.rounded-circle{
@@ -52,6 +52,13 @@ hr{
 	width: 90%;
 }
 
+nav{
+	width: auto;
+	background-color: #eee;
+	border-bottom-left-radius: 50%;
+	border-bottom-right-radius: 50%;
+}
+
 @media (min-width: 576px){
 	nav>a{
 		margin-left: 32%;
@@ -63,6 +70,9 @@ hr{
 }
 
 @media (max-width: 576px){
+	.navbar-brand{
+		font-size: 1.5rem;
+	}
 	.display-4{
 	  	font-size: 2.38rem;
 	}
@@ -71,6 +81,11 @@ hr{
 	}
 	.project-card-txt{
 		text-align: center !important;
+	}
+	nav{
+		text-align: center !important;
+		border-bottom-left-radius: 35%;
+		border-bottom-right-radius: 35%;
 	}
 }
 
