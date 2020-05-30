@@ -59,7 +59,7 @@ nav{
 	border-bottom-right-radius: 50%;
 }
 
-@media (min-width: 576px){
+@media all and (min-width: 576px){
 	nav>a{
 		margin-left: 32%;
 	}
@@ -69,7 +69,7 @@ nav{
 	}
 }
 
-@media (max-width: 576px){
+@media all and (max-width: 576px){
 	.navbar-brand{
 		font-size: 1.5rem;
 	}
@@ -88,4 +88,3 @@ nav{
 		border-bottom-right-radius: 35%;
 	}
 }
-
