@@ -1,0 +1,245 @@
+html, body{
+	font-size: 0.9rem;
+}
+body.bg-light{
+	background-color: #f4f4f4 !important;
+}
+h1,h2,h3,h4,h5,h6{
+	font-weight: bold;
+}
+h1,h2,h3,h4,h5,h6,a,p{
+	color: rgb(0,0,90);
+}
+h2{
+	margin-bottom: 0px;
+}
+.shadow {
+  box-shadow: 0.1rem 0.7rem 2rem rgba(0, 0, 0, 0.3) !important;
+}
+.fa-phone.shadow{
+	box-shadow: 0.1rem 0.7rem 2rem rgba(0, 0, 0, 0.5) !important;
+}
+.text-lg-center{
+	text-align: inherit !important;
+}
+.icon-rounded{
+	padding: 4px 5px 3px 5px;
+	border-radius: 50%;
+}
+.btn-warning{
+	border-color: rgb(250,210,10);
+	background-color: rgb(250,210,10);
+	border-radius: 0.5rem;
+}
+.text-yellow{
+	color: rgb(250,210,10);
+}
+.text-grey{
+	color: #eee;
+}
+.text-black{
+	color: black !important;
+}
+.container1{
+	background-image: url("../images/header.jpg");
+	background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    width: 100%;    
+}
+.container1{
+	padding-top: 14%;
+	padding-bottom: 14%;
+}
+.container1>div{
+	padding-top: 2%;
+	padding-left: 8%;
+}
+.container2,.container3,.container4,.container5,.container6,.container7,.container8,.container9,footer{
+	padding-top: 65px;
+	padding-bottom: 65px;
+}
+.container2, .container5, .container6, .container7,.container8,.container9, footer{
+	padding-left: 15%;
+	padding-right: 15%;
+}
+.container2>div>div>h4{
+	margin-top: 20px;
+	margin-bottom: 5px;
+}
+.container3, .container6{
+	background-image: url("../images/middle.jpg");
+	background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    width: 100%;
+}
+.con3-profile-img{
+	height: 160px;
+	width: 165px;
+	border-radius: 50%;
+	border: 5px solid grey;
+}
+.con3-text>.text-yellow{
+	font-weight: 500;
+}
+.container4{
+	background-color: white;
+}
+.container5>div>div>h4{
+	margin-top: 20px;
+	margin-bottom: 5px;
+}
+.card{
+	height: 210px;
+}
+.card-header{
+	height: 40%;
+}
+.card-body{
+	height: 60%;
+	overflow: hidden !important;
+}
+.con6-profile-img{
+	height: 72px;
+	width: 74px;
+	border-radius: 50%;
+	border: none;
+}
+.relative{
+	position: relative;
+}
+.absolute{
+	position: absolute;
+	top: -45px;
+	left: 20px;
+}
+.con6-header{
+	padding-left: 12%;
+	padding-right: 12%;
+	padding-bottom: 60px;
+}
+.offer1, .offer2{
+	background-image: url("../images/offer.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    width: 100%;
+}
+.offer1>div{
+	background-color: rgb(250,210,10);
+	height: 100%;
+	width: 100%;
+	opacity: 0.9;
+	padding: 20px;
+}
+.offer2>div{
+	background-color: #007bff;
+	height: 100%;
+	width: 100%;
+	opacity: 0.9;
+	padding: 20px;
+}
+.offer1>div>h1, .offer2>div>h1{
+	font-weight: 900 !important;
+}
+.offer1-pr-1{
+	padding-right: 0.25rem !important;
+}
+.offer2-pl-1{
+	padding-left: 0.25rem !important;
+}
+.container8{
+	background-color: white;
+}
+.container8>div.row>div>p{
+	padding-top: 25px;
+	padding-bottom: 25px;
+	height: 250px;
+	overflow: hidden;
+}
+footer{
+	color: #bbb !important;
+	background-color: rgb(15, 18, 36);
+}
+ul{
+	list-style: none;
+}
+footer>div.row>div>p{
+	color: #bbb !important;
+}
+@media all and (min-width: 568px){
+	nav{
+		margin: 0px 15%;
+	}
+	.nav-item{
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	.pt-5{
+		padding-top: 5rem !important;
+	}
+	.pb-5{
+		padding-bottom: 5rem !important;
+	}
+	.con7-form-container{
+		padding-left: 20px;
+	}
+}
+
+@media all and (max-width: 567px){
+	.container-fluid>.text-right{
+		text-align: center !important;
+	}
+	.w-50{
+		width: 70% !important;
+	}
+	.container1>div{
+		padding-top: 15%;
+		padding-left: 13%;
+	}
+	.price{
+		margin-bottom: 25px;
+	}
+	.card-header-text{
+		text-align: center !important;
+	}
+	.con6-header{
+		padding-top: 30px;
+	}
+	.offer1-pr-1{
+		padding: 0px 15px !important;
+	}
+	.offer2-pl-1{
+		padding: 0px 15px !important;
+		margin-top: 10px;
+	}
+	.con7-form-container{
+		margin-top: 20px;
+		text-align: center !important;
+	}
+	.con7-form>div.d-block{
+		display: inline-block;
+	}
+	.con7-form>div,.con7-form>div>input,.con7-form>div>button{
+		width: 100% !important;
+	}
+	footer,footer>div.row>div{
+		text-align: center !important;
+	}
+	ul.list1{
+		padding-inline-start: 0px;
+		padding-inline-end: 20px;
+	}
+	ul.list2{
+		padding-inline-start: 20px;
+		padding-inline-end: 0px;
+	}
+	.copyright{
+		border-top: 1px solid grey;
+		padding-top: 10px;
+	}
+	
+}

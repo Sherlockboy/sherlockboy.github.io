@@ -8,13 +8,13 @@ a:hover{
 }
 
 .nav-text{
-	color: #333 !important;
+	color: #aaa !important;
 	font-weight: 400;
 	font-size: 1.25rem;
 }
 
 .nav-text:hover{
-	color: #999 !important;
+	color: #ccc !important;
 }
 
 .text-center>img.rounded-circle{
@@ -52,16 +52,16 @@ hr{
 	width: 90%;
 }
 
-nav{
-	width: auto;
-	background-color: #eee;
-	border-bottom-left-radius: 50%;
-	border-bottom-right-radius: 50%;
+@media (min-width: 768px){
+	nav{
+		padding: 0% 33% !important;
+		overflow: hidden;
+	}
 }
 
-@media all and (min-width: 576px){
-	nav>a{
-		margin-left: 32%;
+@media all and (min-width: 577px){
+	nav>div>ul>li.nav-item{
+		text-align: center !important;
 	}
 	.text-center>img.rounded-circle{
 		max-height: 300px;
@@ -84,7 +84,9 @@ nav{
 	}
 	nav{
 		text-align: center !important;
-		border-bottom-left-radius: 35%;
-		border-bottom-right-radius: 35%;
+	}
+	.col-2.text-center{
+		margin-right: 5px;
+		margin-bottom: 10px;
 	}
 }
