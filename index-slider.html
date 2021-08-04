@@ -47,32 +47,33 @@
         <!-- Navbar Start -->
         <nav class="navbar navbar-expand-lg fixed-top navbar-custom navbar-light sticky">
     		<div class="container">
-                <a class="navbar-brand" href="#">
-                    <img src="images/logo.png" height="15" alt="">
+			    <a class="navbar-brand" href="#">
+                    <img src="images/logo.png" class="l-dark" height="16" alt="">
+                    <img src="images/logo-light.png" class="l-light" height="16" alt="">
                 </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                    <span data-feather="menu" class="fea icon-md"></span>
-                </button><!--end button-->
+			    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+			        <span data-feather="menu" class="fea icon-md"></span>
+			    </button><!--end button-->
 
-                <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <ul class="navbar-nav navbar-nav-link mx-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#home">Home</a>
+			    <div class="collapse navbar-collapse" id="navbarCollapse">
+			        <ul class="navbar-nav mx-auto">
+			            <li class="nav-item active">
+			                <a class="nav-link" href="#home">Home</a>
                         </li><!--end nav item-->
+			            <li class="nav-item">
+			                <a class="nav-link" href="#services">Services</a>
+			            </li><!--end nav item-->
                         <li class="nav-item">
-                            <a class="nav-link" href="#services">Services</a>
+			                <a class="nav-link" href="#resume">Resume</a>
+			            </li><!--end nav item-->
+			            <li class="nav-item">
+			                <a class="nav-link" href="#projects">Projects</a>
                         </li><!--end nav item-->
-                        <li class="nav-item">
-                            <a class="nav-link" href="#resume">Resume</a>
-                        </li><!--end nav item-->
-                        <li class="nav-item">
-                            <a class="nav-link" href="#projects">Projects</a>
-                        </li><!--end nav item-->
-                        <li class="nav-item">
-                            <a class="nav-link" href="#news">Blog</a>
-                        </li><!--end nav item-->
-                        <li class="nav-item">
-                            <a class="nav-link" href="#contact">Contact</a>
+			            <li class="nav-item">
+			                <a class="nav-link" href="#news">Blog</a>
+			            </li><!--end nav item-->
+			            <li class="nav-item">
+			                <a class="nav-link" href="#contact">Contact</a>
                         </li><!--end nav item-->
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="javascript:void(0)" id="navbarDropdown" role="button"
@@ -93,41 +94,41 @@
                         </li><!--end nav item-->
                     </ul>
 
-                    <ul class="list-unstyled mb-0 mt-2 mt-sm-0 social-icon">
+                    <ul class="list-unstyled mb-0 mt-2 mt-sm-0 social-icon light-social-icon">
                         <li class="list-inline-item"><a href="javascript:void(0)"><i class="mdi mdi-facebook"></i></a></li>
                         <li class="list-inline-item"><a href="javascript:void(0)"><i class="mdi mdi-twitter"></i></a></li>
                         <li class="list-inline-item"><a href="javascript:void(0)"><i class="mdi mdi-instagram"></i></a></li>
                     </ul>
                 </div> 
-            </div><!--end container-->
+		    </div><!--end container-->
 		</nav><!--end navbar-->
         <!-- Navbar End -->
 
         <!-- HOME START-->
-        <section class="bg-home bg-light d-table w-100" style="background-image:url('images/home/01.png')" id="home">
+        <section class="bg-home" id="home">
+            <div class="bg-overlay bg-over-image"></div>
             <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-12">
-                        <div class="title-heading mt-5">
-                            <h6 class="sub-title">Looking for a Designer !</h6>
-                            <h1 class="heading text-primary mb-3">I'm Cristino Murphy</h1>
-                            <p class="para-desc text-muted">Obviously I'm a Web Designer. Web Developer with over 3 years of experience. Experienced with all stages of the development cycle for dynamic web projects.</p>
-                            <div class="mt-4 pt-2">
-                                <a href="javascript:void(0)" class="btn btn-primary rounded mb-2 mr-2">Hire me</a>
-                                <a href="javascript:void(0)" class="btn btn-outline-primary rounded mb-2">Download CV <i data-feather="download" class="fea icon-sm"></i></a>
+                <div class="row mt-5 mt-sm-0 justify-content-center">
+                    <div class="col-lg-12 text-center">
+                        <div class="title-heading">
+                            <img src="images/home/hero.jpg" class="img-fluid rounded-circle" alt="">
+                            <h1 class="heading text-primary mt-3">Cristino Murphy</h1>
+                            <h6 class="sub-title text-light title-dark">I'm a Passionate <span class="element text-primary" data-elements="Web Designer, Web Developer, Photographer"></span></h6>
+                            <div class="mt-4">
+                                <a href="javascript:void(0)" class="btn btn-primary rounded">Download CV <i data-feather="download" class="fea icon-sm"></i></a>
                             </div>
                         </div>
                     </div><!--end col-->
                 </div><!--end row-->
             </div><!--end container--> 
-            <a href="#about" data-scroll-nav="1" class="mouse-icon rounded-pill bg-transparent mouse-down">
+            <a href="#about" data-scroll-nav="1" class="mouse-icon mouse-icon-white rounded-pill bg-transparent mouse-down">
                 <span class="wheel position-relative d-block mover"></span>
             </a>
         </section><!--end section-->
         <!-- HOME END-->
         
         <!-- About Start -->
-        <section class="section pb-3" id="about">
+        <section class="section pb-3 bg-white" id="about">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-5 col-md-5">
@@ -484,7 +485,7 @@
         <!-- Services End -->
 
         <!-- Resume Start -->
-        <section class="section" id="resume">
+        <section class="section bg-white" id="resume">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-12 text-center">
@@ -557,7 +558,7 @@
         <!-- Skill End -->
 
         <!-- Skill & CTA START -->
-        <section class="cta-full border-top">
+        <section class="cta-full border-top bg-white">
             <div class="container-fluid">
                 <div class="row position-relative">
                     <div class="col-lg-4 padding-less img" style="background-image:url('images/skills.jpg')" data-jarallax='{"speed": 0.5}'></div><!-- end col -->
@@ -833,7 +834,7 @@
         <!-- Projects End -->
 
         <!-- Testimonial Start -->
-        <section class="cta-full">
+        <section class="cta-full bg-white">
             <div class="container-fluid">
                 <div class="row position-relative">
                     <div class="col-lg-8 order-2">
@@ -1114,7 +1115,7 @@
         <!-- Blog Start -->
 
         <!-- Contact Start -->
-        <section class="section pb-0" id="contact">
+        <section class="section bg-white" id="contact">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-12 text-center">
@@ -1169,10 +1170,8 @@
                     </div><!--end col-->
                 </div><!--end row-->
             </div><!--end container-->
-        </section><!--end section-->
-
-        <section class="section pt-5 mt-3">
-            <div class="container">
+            
+            <div class="container mt-100 mt-60">
                 <div class="row justify-content-center">
                     <div class="col-lg-12">
                         <div class="custom-form mb-sm-30">
@@ -1220,7 +1219,7 @@
         <!-- Contact End -->
 
         <!-- Footer Start -->
-        <footer class="footer bg-dark">
+        <footer class="footer bg-dark bg-footer">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-12 text-center">
@@ -1238,7 +1237,7 @@
                 </div><!--end row-->
             </div><!--end container-->
         </footer><!--end footer-->
-        <footer class="footer footer-bar bg-dark">
+        <footer class="footer footer-bar bg-dark bg-footer">
             <div class="container text-foot text-center">
                 <p class="mb-0">© 2019-20 Cristino. Design with <i class="mdi mdi-heart text-danger"></i> by <a href="http://www.shreethemes.in" target="_blank" class="text-success">Shreethemes</a>.</p>
             </div><!--end container-->
@@ -1262,7 +1261,8 @@
         <script src="js/jquery.magnific-popup.min.js"></script>
         <script src="js/isotope.js"></script>
         <script src="js/portfolio-filter.js"></script> 
-        <script src="js/magnific.init.js"></script> 
+        <!-- BackSlideShow -->
+        <script src="js/jquery.backstretch.min.js"></script>    
         <!-- Contact -->
         <script src="js/contact.js"></script>
         <!-- Counter -->
@@ -1273,8 +1273,17 @@
         <script src="js/jquery-twennmax.init.js"></script>
         <!-- Feather icon -->
         <script src="js/feather.min.js"></script>
+        <!-- Typed -->
+        <script src="js/typed.js"></script>
+        <script src="js/typed.init.js"></script>
         <!-- Main Js -->
         <script src="js/app.js"></script>
+        <script>
+            $.backstretch(["images/home/02.jpg", "images/home/04.jpg", "images/home/05.jpg"], {
+                duration: 3000,
+                fade: 1000,
+            });
+        </script>
     </body>
 
 </html>

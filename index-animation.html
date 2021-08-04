@@ -17,11 +17,13 @@
         <link href="css/magnific-popup.css" rel="stylesheet" type="text/css" />
         <!-- Icon -->
         <link href="css/materialdesignicons.min.css" rel="stylesheet" type="text/css" />
-                  
+                    
         <!-- SLICK SLIDER -->
         <link rel="stylesheet" href="css/owl.carousel.min.css"/> 
         <link rel="stylesheet" href="css/owl.theme.css"/> 
-        <link rel="stylesheet" href="css/owl.transitions.css"/>    
+        <link rel="stylesheet" href="css/owl.transitions.css"/> 
+        <!-- Animation -->
+        <link href="css/aos.css" rel="stylesheet" type="text/css" />    
         <!-- Custom Css -->
         <link href="css/style.css" rel="stylesheet" type="text/css" id="theme-opt" />
         <link href="css/colors/default.css" rel="stylesheet" id="color-opt">
@@ -43,35 +45,36 @@
             </div>
         </div>
         <!-- Loader -->
-        
+
         <!-- Navbar Start -->
         <nav class="navbar navbar-expand-lg fixed-top navbar-custom navbar-light sticky">
     		<div class="container">
-                <a class="navbar-brand" href="#">
-                    <img src="images/logo.png" height="15" alt="">
+			    <a class="navbar-brand" href="#">
+                    <img src="images/logo.png" class="l-dark" height="15" alt="">
+                    <img src="images/logo-light.png" class="l-light" height="15" alt="">
                 </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                    <span data-feather="menu" class="fea icon-md"></span>
-                </button><!--end button-->
+			    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+			        <span data-feather="menu" class="fea icon-md"></span>
+			    </button><!--end button-->
 
-                <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <ul class="navbar-nav navbar-nav-link mx-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#home">Home</a>
+			    <div class="collapse navbar-collapse" id="navbarCollapse">
+			        <ul class="navbar-nav mx-auto">
+			            <li class="nav-item active">
+			                <a class="nav-link" href="#home">Home</a>
                         </li><!--end nav item-->
+			            <li class="nav-item">
+			                <a class="nav-link" href="#services">Services</a>
+			            </li><!--end nav item-->
                         <li class="nav-item">
-                            <a class="nav-link" href="#services">Services</a>
+			                <a class="nav-link" href="#resume">Resume</a>
+			            </li><!--end nav item-->
+			            <li class="nav-item">
+			                <a class="nav-link" href="#projects">Projects</a>
                         </li><!--end nav item-->
-                        <li class="nav-item">
-                            <a class="nav-link" href="#resume">Resume</a>
-                        </li><!--end nav item-->
-                        <li class="nav-item">
-                            <a class="nav-link" href="#projects">Projects</a>
-                        </li><!--end nav item-->
-                        <li class="nav-item">
-                            <a class="nav-link" href="#news">Blog</a>
-                        </li><!--end nav item-->
-                        <li class="nav-item">
+			            <li class="nav-item">
+			                <a class="nav-link" href="#news">Blog</a>
+			            </li><!--end nav item-->
+			            <li class="nav-item">
                             <a class="nav-link" href="#contact">Contact</a>
                         </li><!--end nav item-->
                         <li class="nav-item dropdown">
@@ -93,34 +96,34 @@
                         </li><!--end nav item-->
                     </ul>
 
-                    <ul class="list-unstyled mb-0 mt-2 mt-sm-0 social-icon">
+                    <ul class="list-unstyled mb-0 mt-2 mt-sm-0 social-icon light-social-icon">
                         <li class="list-inline-item"><a href="javascript:void(0)"><i class="mdi mdi-facebook"></i></a></li>
                         <li class="list-inline-item"><a href="javascript:void(0)"><i class="mdi mdi-twitter"></i></a></li>
                         <li class="list-inline-item"><a href="javascript:void(0)"><i class="mdi mdi-instagram"></i></a></li>
                     </ul>
                 </div> 
-            </div><!--end container-->
+		    </div><!--end container-->
 		</nav><!--end navbar-->
         <!-- Navbar End -->
 
         <!-- HOME START-->
-        <section class="bg-home bg-light d-table w-100" style="background-image:url('images/home/01.png')" id="home">
+        <section class="bg-home" style="background-image:url('images/home/04.jpg')" id="home">
+            <div class="bg-overlay"></div>
             <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-12">
-                        <div class="title-heading mt-5">
-                            <h6 class="sub-title">Looking for a Designer !</h6>
-                            <h1 class="heading text-primary mb-3">I'm Cristino Murphy</h1>
-                            <p class="para-desc text-muted">Obviously I'm a Web Designer. Web Developer with over 3 years of experience. Experienced with all stages of the development cycle for dynamic web projects.</p>
-                            <div class="mt-4 pt-2">
-                                <a href="javascript:void(0)" class="btn btn-primary rounded mb-2 mr-2">Hire me</a>
-                                <a href="javascript:void(0)" class="btn btn-outline-primary rounded mb-2">Download CV <i data-feather="download" class="fea icon-sm"></i></a>
+                <div class="row mt-5 mt-sm-0 justify-content-center">
+                    <div class="col-lg-12 text-center">
+                        <div class="title-heading" data-aos="fade-up">
+                            <img src="images/home/hero.jpg" class="img-fluid rounded-circle" alt="">
+                            <h1 class="heading text-primary mt-3">Cristino Murphy</h1>
+                            <h6 class="sub-title text-light title-dark">I Am <span class="element text-primary" data-elements="Web Designer, Web Developer, Photographer"></span></h6>
+                            <div class="mt-4">
+                                <a href="javascript:void(0)" class="btn btn-primary rounded">Download CV <i data-feather="download" class="fea icon-sm"></i></a>
                             </div>
                         </div>
                     </div><!--end col-->
                 </div><!--end row-->
-            </div><!--end container--> 
-            <a href="#about" data-scroll-nav="1" class="mouse-icon rounded-pill bg-transparent mouse-down">
+            </div><!--end container-->
+            <a href="#about" data-scroll-nav="1" class="mouse-icon mouse-icon-white rounded-pill bg-transparent mouse-down">
                 <span class="wheel position-relative d-block mover"></span>
             </a>
         </section><!--end section-->
@@ -131,13 +134,13 @@
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-5 col-md-5">
-                        <div class="about-hero">
+                        <div class="about-hero" data-aos="fade-up">
                             <img src="images/hero.png" class="img-fluid mx-auto d-block about-tween position-relative" alt="">
                         </div>
                     </div><!--end col-->
 
                     <div class="col-lg-7 col-md-7 mt-4 pt-2 mt-sm-0 pt-sm-0">
-                        <div class="section-title mb-0 ml-lg-5 ml-md-3">
+                        <div class="section-title mb-0 ml-lg-5 ml-md-3" data-aos="fade-up">
                             <h4 class="title text-primary mb-3">Cristino Murphy</h4>
                             <h6 class="designation mb-3">I'm a Passionate <span class="text-primary">Web Designer</span></h6>
                             <p class="text-muted">Obviously I'm a Web Designer. Web Developer with over 3 years of experience. Experienced with all stages of the development cycle for dynamic web projects. The as opposed to using 'Content here, content here', making it look like readable English.</p>
@@ -154,7 +157,7 @@
             <div class="container mt-100 mt-60">
                 <div class="row justify-content-center">
                     <div class="col-12 text-center">
-                        <div class="section-title">
+                        <div class="section-title" data-aos="fade-up">
                             <div class="titles">
                                 <h4 class="title title-line text-uppercase mb-4 pb-4">Hobbies & Interests</h4>
                                 <span></span>
@@ -166,7 +169,7 @@
                 
                 <div class="row">
                     <div class="col-lg-3 col-md-4 col-12 mt-4 pt-2">
-                        <div class="interests-desc bg-light position-relative px-2 py-3 rounded">
+                        <div class="interests-desc bg-light position-relative px-2 py-3 rounded" data-aos="fade-up">
                             <div class="hobbies d-flex align-items-center">
                                 <div class="text-center rounded-pill mr-4">
                                     <i data-feather="monitor" class="icon fea icon-md-sm"></i>
@@ -179,7 +182,7 @@
                     </div><!--end col-->
                     
                     <div class="col-lg-3 col-md-4 col-12 mt-4 pt-2">
-                        <div class="interests-desc bg-light position-relative px-2 py-3 rounded">
+                        <div class="interests-desc bg-light position-relative px-2 py-3 rounded" data-aos="fade-up">
                             <div class="hobbies d-flex align-items-center">
                                 <div class="text-center rounded-pill mr-4">
                                     <i data-feather="stop-circle" class="icon fea icon-md-sm"></i>
@@ -192,7 +195,7 @@
                     </div><!--end col-->
                     
                     <div class="col-lg-3 col-md-4 col-12 mt-4 pt-2">
-                        <div class="interests-desc bg-light position-relative px-2 py-3 rounded">
+                        <div class="interests-desc bg-light position-relative px-2 py-3 rounded" data-aos="fade-up">
                             <div class="hobbies d-flex align-items-center">
                                 <div class="text-center rounded-pill mr-4">
                                     <i data-feather="video" class="icon fea icon-md-sm"></i>
@@ -205,7 +208,7 @@
                     </div><!--end col-->
                     
                     <div class="col-lg-3 col-md-4 col-12 mt-4 pt-2">
-                        <div class="interests-desc bg-light position-relative px-2 py-3 rounded">
+                        <div class="interests-desc bg-light position-relative px-2 py-3 rounded" data-aos="fade-up">
                             <div class="hobbies d-flex align-items-center">
                                 <div class="text-center rounded-pill mr-4">
                                     <i data-feather="coffee" class="icon fea icon-md-sm"></i>
@@ -218,7 +221,7 @@
                     </div><!--end col-->
                     
                     <div class="col-lg-3 col-md-4 col-12 mt-4 pt-2">
-                        <div class="interests-desc bg-light position-relative px-2 py-3 rounded">
+                        <div class="interests-desc bg-light position-relative px-2 py-3 rounded" data-aos="fade-up">
                             <div class="hobbies d-flex align-items-center">
                                 <div class="text-center rounded-pill mr-4">
                                     <i data-feather="music" class="icon fea icon-md-sm"></i>
@@ -231,7 +234,7 @@
                     </div><!--end col-->
                     
                     <div class="col-lg-3 col-md-4 col-12 mt-4 pt-2">
-                        <div class="interests-desc bg-light position-relative px-2 py-3 rounded">
+                        <div class="interests-desc bg-light position-relative px-2 py-3 rounded" data-aos="fade-up">
                             <div class="hobbies d-flex align-items-center">
                                 <div class="text-center rounded-pill mr-4">
                                     <i data-feather="watch" class="icon fea icon-md-sm"></i>
@@ -244,7 +247,7 @@
                     </div><!--end col-->
                     
                     <div class="col-lg-3 col-md-4 col-12 mt-4 pt-2">
-                        <div class="interests-desc bg-light position-relative px-2 py-3 rounded">
+                        <div class="interests-desc bg-light position-relative px-2 py-3 rounded" data-aos="fade-up">
                             <div class="hobbies d-flex align-items-center">
                                 <div class="text-center rounded-pill mr-4">
                                     <i data-feather="box" class="icon fea icon-md-sm"></i>
@@ -257,7 +260,7 @@
                     </div><!--end col-->
                     
                     <div class="col-lg-3 col-md-4 col-12 mt-4 pt-2">
-                        <div class="interests-desc bg-light position-relative px-2 py-3 rounded">
+                        <div class="interests-desc bg-light position-relative px-2 py-3 rounded" data-aos="fade-up">
                             <div class="hobbies d-flex align-items-center">
                                 <div class="text-center rounded-pill mr-4">
                                     <i data-feather="target" class="icon fea icon-md-sm"></i>
@@ -270,7 +273,7 @@
                     </div><!--end col-->
                     
                     <div class="col-lg-3 col-md-4 col-12 mt-4 pt-2">
-                        <div class="interests-desc bg-light position-relative px-2 py-3 rounded">
+                        <div class="interests-desc bg-light position-relative px-2 py-3 rounded" data-aos="fade-up">
                             <div class="hobbies d-flex align-items-center">
                                 <div class="text-center rounded-pill mr-4">
                                     <i data-feather="pen-tool" class="icon fea icon-md-sm"></i>
@@ -283,7 +286,7 @@
                     </div><!--end col-->
                     
                     <div class="col-lg-3 col-md-4 col-12 mt-4 pt-2">
-                        <div class="interests-desc bg-light position-relative px-2 py-3 rounded">
+                        <div class="interests-desc bg-light position-relative px-2 py-3 rounded" data-aos="fade-up">
                             <div class="hobbies d-flex align-items-center">
                                 <div class="text-center rounded-pill mr-4">
                                     <i data-feather="book" class="icon fea icon-md-sm"></i>
@@ -296,7 +299,7 @@
                     </div><!--end col-->
                     
                     <div class="col-lg-3 col-md-4 col-12 mt-4 pt-2">
-                        <div class="interests-desc bg-light position-relative px-2 py-3 rounded">
+                        <div class="interests-desc bg-light position-relative px-2 py-3 rounded" data-aos="fade-up">
                             <div class="hobbies d-flex align-items-center">
                                 <div class="text-center rounded-pill mr-4">
                                     <i data-feather="smartphone" class="icon fea icon-md-sm"></i>
@@ -309,7 +312,7 @@
                     </div><!--end col-->
                     
                     <div class="col-lg-3 col-md-4 col-12 mt-4 pt-2">
-                        <div class="interests-desc bg-light position-relative px-2 py-3 rounded">
+                        <div class="interests-desc bg-light position-relative px-2 py-3 rounded" data-aos="fade-up">
                             <div class="hobbies d-flex align-items-center">
                                 <div class="text-center rounded-pill mr-4">
                                     <i data-feather="activity" class="icon fea icon-md-sm"></i>
@@ -328,7 +331,7 @@
                     <div class="container">
                         <div class="row" id="counter">
                             <div class="col-lg-3 col-6">
-                                <div class="counter-box rounded py-3 text-center">
+                                <div class="counter-box rounded py-3 text-center" data-aos="fade-up">
                                     <div class="counter-icon">
                                         <i data-feather="smile" class="fea icon-md text-primary"></i>
                                     </div>
@@ -338,7 +341,7 @@
                             </div><!--end col-->
     
                             <div class="col-lg-3 col-6">
-                                <div class="counter-box rounded py-3 text-center">
+                                <div class="counter-box rounded py-3 text-center" data-aos="fade-up">
                                     <div class="counter-icon">
                                         <i data-feather="award" class="fea icon-md text-primary"></i>
                                     </div>
@@ -348,7 +351,7 @@
                             </div><!--end col-->
     
                             <div class="col-lg-3 col-6">
-                                <div class="counter-box rounded py-3 text-center">
+                                <div class="counter-box rounded py-3 text-center" data-aos="fade-up">
                                     <div class="counter-icon">
                                         <i data-feather="coffee" class="fea icon-md text-primary"></i>
                                     </div>
@@ -358,7 +361,7 @@
                             </div><!--end col-->
     
                             <div class="col-lg-3 col-6">
-                                <div class="counter-box rounded py-3 text-center">
+                                <div class="counter-box rounded py-3 text-center" data-aos="fade-up">
                                     <div class="counter-icon">
                                         <i data-feather="thumbs-up" class="fea icon-md text-primary"></i>
                                     </div>
@@ -378,7 +381,7 @@
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-12 text-center">
-                        <div class="section-title">
+                        <div class="section-title" data-aos="fade-up">
                             <div class="titles">
                                 <h4 class="title title-line text-uppercase mb-4 pb-4">What Do I Offer ?</h4>
                                 <span></span>
@@ -390,7 +393,7 @@
 
                 <div class="row">                    
                     <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
-                        <div class="service-wrapper rounded position-relative text-center border border-footer p-4 pt-5 pb-5">
+                        <div class="service-wrapper rounded position-relative text-center border border-footer p-4 pt-5 pb-5" data-aos="fade-up">
                             <div class="icon text-primary">
                                 <i data-feather="airplay" class="fea icon-md"></i>
                             </div>
@@ -405,7 +408,7 @@
                     </div><!--end col-->
 
                     <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
-                        <div class="service-wrapper rounded position-relative text-center border border-footer p-4 pt-5 pb-5">
+                        <div class="service-wrapper rounded position-relative text-center border border-footer p-4 pt-5 pb-5" data-aos="fade-up">
                             <div class="icon text-primary">
                                 <i data-feather="aperture" class="fea icon-md"></i>
                             </div>
@@ -420,7 +423,7 @@
                     </div><!--end col-->
                     
                     <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
-                        <div class="service-wrapper rounded position-relative text-center border border-footer p-4 pt-5 pb-5">
+                        <div class="service-wrapper rounded position-relative text-center border border-footer p-4 pt-5 pb-5" data-aos="fade-up">
                             <div class="icon text-primary">
                                 <i data-feather="camera" class="fea icon-md"></i>
                             </div>
@@ -435,7 +438,7 @@
                     </div><!--end col-->
                     
                     <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
-                        <div class="service-wrapper rounded position-relative text-center border border-footer p-4 pt-5 pb-5">
+                        <div class="service-wrapper rounded position-relative text-center border border-footer p-4 pt-5 pb-5" data-aos="fade-up">
                             <div class="icon text-primary">
                                 <i data-feather="compass" class="fea icon-md"></i>
                             </div>
@@ -450,7 +453,7 @@
                     </div><!--end col-->
                     
                     <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
-                        <div class="service-wrapper rounded position-relative text-center border border-footer p-4 pt-5 pb-5">
+                        <div class="service-wrapper rounded position-relative text-center border border-footer p-4 pt-5 pb-5" data-aos="fade-up">
                             <div class="icon text-primary">
                                 <i data-feather="settings" class="fea icon-md"></i>
                             </div>
@@ -465,7 +468,7 @@
                     </div><!--end col-->
                     
                     <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
-                        <div class="service-wrapper rounded position-relative text-center border border-footer p-4 pt-5 pb-5">
+                        <div class="service-wrapper rounded position-relative text-center border border-footer p-4 pt-5 pb-5" data-aos="fade-up">
                             <div class="icon text-primary">
                                 <i data-feather="watch" class="fea icon-md"></i>
                             </div>
@@ -488,7 +491,7 @@
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-12 text-center">
-                        <div class="section-title">
+                        <div class="section-title" data-aos="fade-up">
                             <div class="titles">
                                 <h4 class="title title-line text-uppercase mb-4 pb-4">Work Participation</h4>
                                 <span></span>
@@ -503,7 +506,7 @@
                         <div class="main-icon rounded-pill text-center mt-4 pt-2">
                             <i data-feather="star" class="fea icon-md-sm"></i>
                         </div>
-                        <div class="timeline-page pt-2 position-relative">
+                        <div class="timeline-page pt-2 position-relative" data-aos="fade-up">
                             <div class="timeline-item mt-4">
                                 <div class="row">
                                     <div class="col-lg-6 col-md-6 col-sm-6">
@@ -565,7 +568,7 @@
                         <div class="cta-full-img-box">
                             <div class="row justify-content-center">
                                 <div class="col-12 text-center">
-                                    <div class="section-title">
+                                    <div class="section-title" data-aos="fade-up">
                                         <div class="titles">
                                             <h4 class="title title-line text-uppercase mb-4 pb-4">Work Expertise</h4>
                                             <span></span>
@@ -577,7 +580,7 @@
 
                             <div class="row align-items-center">
                                 <div class="col-lg-3 col-md-4 col-12">
-                                    <ul class="nav nav-pills flex-column px-0" id="pills-tab" role="tablist">
+                                    <ul class="nav nav-pills flex-column px-0" id="pills-tab" data-aos="fade-up" role="tablist">
                                         <li class="nav-item mt-4 pt-2">
                                             <a class="nav-link rounded active" id="pills-cloud-tab" data-toggle="pill" href="#pills-cloud" role="tab" aria-controls="pills-cloud" aria-selected="false">
                                                 <div class="skill-container text-center pt-1 pb-1">
@@ -605,7 +608,7 @@
                                 </div><!--end col-->
 
                                 <div class="col-lg-9 col-md-8 col-12">
-                                    <div class="tab-content pl-lg-4" id="pills-tabContent">
+                                    <div class="tab-content pl-lg-4" id="pills-tabContent" data-aos="fade-up">
                                         <div class="tab-pane fade show active" id="pills-cloud" role="tabpanel" aria-labelledby="pills-cloud-tab">
                                             <div class="progress-box mt-4 pt-2">
                                                 <h6 class="font-weight-normal">HTML</h6>
@@ -693,7 +696,7 @@
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-12 text-center">
-                        <div class="section-title">
+                        <div class="section-title" data-aos="fade-up">
                             <div class="titles">
                                 <h4 class="title title-line text-uppercase mb-4 pb-4">My Portfolio</h4>
                                 <span></span>
@@ -707,7 +710,7 @@
             <div class="container">                
                 <div class="row mt-4 pt-2">
                     <div class="col-lg-12">
-                        <ul class="portfolioFilter text-center mb-0 list-unstyled">
+                        <ul class="portfolioFilter text-center mb-0 list-unstyled" data-aos="fade-up">
                             <li class="list-inline-item mb-3"><a href="#" data-filter="*" class="active text-dark mr-2 py-2 px-3 rounded">All</a></li>
                             <li class="list-inline-item mb-3"><a href="#" data-filter=".natural" class="text-dark mr-2 py-2 px-3 rounded">Natural</a></li>
                             <li class="list-inline-item mb-3"><a href="#" data-filter=".creative" class="text-dark mr-2 py-2 px-3 rounded">Creative</a></li>
@@ -718,7 +721,7 @@
                 </div><!--end row-->
 
                 <div class="portfolioContainer row">
-                    <div class="col-lg-4 col-md-6 mt-4 pt-2 natural personal">
+                    <div class="col-lg-4 col-md-6 mt-4 pt-2 natural personal" data-aos="fade-up">
                         <div class="portfolio-box rounded shadow position-relative overflow-hidden">
                             <div class="portfolio-box-img position-relative overflow-hidden">
                                 <img src="images/portfolio/1.jpg" class="img-fluid" alt="member-image">
@@ -735,7 +738,7 @@
                         </div>
                     </div><!--end col-->
 
-                    <div class="col-lg-4 col-md-6 mt-4 pt-2 creative personal photography">
+                    <div class="col-lg-4 col-md-6 mt-4 pt-2 creative personal photography" data-aos="fade-up">
                         <div class="portfolio-box rounded shadow position-relative overflow-hidden">
                             <div class="portfolio-box-img position-relative overflow-hidden">
                                 <img src="images/portfolio/2.jpg" class="img-fluid" alt="member-image">
@@ -752,7 +755,7 @@
                         </div>
                     </div><!--end col-->
 
-                    <div class="col-lg-4 col-md-6 mt-4 pt-2 natural creative">
+                    <div class="col-lg-4 col-md-6 mt-4 pt-2 natural creative" data-aos="fade-up">
                         <div class="portfolio-box rounded shadow position-relative overflow-hidden">
                             <div class="portfolio-box-img position-relative overflow-hidden">
                                 <img src="images/portfolio/4.jpg" class="img-fluid" alt="member-image">
@@ -769,7 +772,7 @@
                         </div>
                     </div><!--end col-->
 
-                    <div class="col-lg-4 col-md-6 mt-4 pt-2  personal photography">
+                    <div class="col-lg-4 col-md-6 mt-4 pt-2  personal photography" data-aos="fade-up">
                         <div class="portfolio-box rounded shadow position-relative overflow-hidden">
                             <div class="portfolio-box-img position-relative overflow-hidden">
                                 <img src="images/portfolio/6.jpg" class="img-fluid" alt="member-image">
@@ -786,7 +789,7 @@
                         </div>
                     </div><!--end col-->
 
-                    <div class="col-lg-4 col-md-6 mt-4 pt-2 creative photography">
+                    <div class="col-lg-4 col-md-6 mt-4 pt-2 creative photography" data-aos="fade-up">
                         <div class="portfolio-box rounded shadow position-relative overflow-hidden">
                             <div class="portfolio-box-img position-relative overflow-hidden">
                                 <img src="images/portfolio/3.jpg" class="img-fluid" alt="member-image">
@@ -803,7 +806,7 @@
                         </div>
                     </div><!--end col-->
 
-                    <div class="col-lg-4 col-md-6 mt-4 pt-2 natural creative">
+                    <div class="col-lg-4 col-md-6 mt-4 pt-2 natural creative" data-aos="fade-up">
                         <div class="portfolio-box rounded shadow position-relative overflow-hidden">
                             <div class="portfolio-box-img position-relative overflow-hidden">
                                 <img src="images/portfolio/5.jpg" class="img-fluid" alt="member-image">
@@ -840,7 +843,7 @@
                         <div class="cta-full-img-box">
                             <div class="row justify-content-center">
                                 <div class="col-12 text-center">
-                                    <div class="section-title">
+                                    <div class="section-title" data-aos="fade-up">
                                         <div class="titles">
                                             <h4 class="title title-line text-uppercase mb-4 pb-4">Clients say</h4>
                                             <span></span>
@@ -852,7 +855,7 @@
 
                             <div class="row">
                                 <div class="col-12">
-                                    <div id="clients-testi" class="owl-carousel mt-3">
+                                    <div id="clients-testi" data-aos="fade-up" class="owl-carousel mt-3">
                                         <!--Start Client-->
                                         <div class="client-review border rounded m-3 mb-4 position-relative shadow">
                                             <div class="review-star">
@@ -1031,7 +1034,7 @@
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-12 text-center">
-                        <div class="section-title">
+                        <div class="section-title" data-aos="fade-up">
                             <div class="titles">
                                 <h4 class="title title-line text-uppercase mb-4 pb-4">Latest News & Blog</h4>
                                 <span></span>
@@ -1043,7 +1046,7 @@
 
                 <div class="row">
                     <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
-                        <div class="blog-post rounded shadow">
+                        <div class="blog-post rounded shadow" data-aos="fade-up">
                             <img src="images/blog/01.jpg" class="img-fluid rounded-top" alt="">
                             <div class="content pt-4 pb-4 p-3">
                                 <ul class="list-unstyled d-flex justify-content-between post-meta">
@@ -1060,7 +1063,7 @@
                     </div><!--end col-->
 
                     <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
-                        <div class="blog-post rounded shadow">
+                        <div class="blog-post rounded shadow" data-aos="fade-up">
                             <img src="images/blog/02.jpg" class="img-fluid rounded-top" alt="">
                             <div class="content pt-4 pb-4 p-3">
                                 <ul class="list-unstyled d-flex justify-content-between post-meta">
@@ -1077,7 +1080,7 @@
                     </div><!--end col-->
 
                     <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
-                        <div class="blog-post rounded shadow">
+                        <div class="blog-post rounded shadow" data-aos="fade-up">
                             <img src="images/blog/03.jpg" class="img-fluid rounded-top" alt="">
                             <div class="content pt-4 pb-4 p-3">
                                 <ul class="list-unstyled d-flex justify-content-between post-meta">
@@ -1099,7 +1102,7 @@
                 <div class="rounded-pill py-5" style="background: url('images/hireme.jpg') center center;">
                     <div class="container">
                         <div class="row justify-content-center">
-                            <div class="col-12 text-center">
+                            <div class="col-12 text-center" data-aos="fade-up">
                                 <h4 class="text-light title-dark">I Am Available For Freelancer Projects.</h4>
                                 <p class="text-white-50 mx-auto mt-4 para-desc">Obviously I'm a Web Designer. Experienced with all stages of the development cycle for dynamic web projects.</p>
                                 <div class="mt-4">
@@ -1118,7 +1121,7 @@
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-12 text-center">
-                        <div class="section-title">
+                        <div class="section-title" data-aos="fade-up">
                             <div class="titles">
                                 <h4 class="title title-line text-uppercase mb-4 pb-4">Contact Me</h4>
                                 <span></span>
@@ -1130,7 +1133,7 @@
 
                 <div class="row">
                     <div class="col-md-4 mt-4 pt-2">
-                        <div class="contact-detail text-center">
+                        <div class="contact-detail text-center" data-aos="fade-up">
                             <div class="icon">
                                 <i data-feather="phone" class="fea icon-md"></i>
                             </div>
@@ -1175,7 +1178,7 @@
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-12">
-                        <div class="custom-form mb-sm-30">
+                        <div class="custom-form mb-sm-30" data-aos="fade-up">
                             <div id="message"></div>
                             <form method="post" action="php/contact.php" name="contact-form" id="contact-form">
                                 <div class="row">
@@ -1223,7 +1226,7 @@
         <footer class="footer bg-dark">
             <div class="container">
                 <div class="row justify-content-center">
-                    <div class="col-12 text-center">
+                    <div class="col-12 text-center" data-aos="fade-down">
                         <a href="#"><img src="images/logo-light.png" height="20" alt=""></a>
                         <p class="para-desc mx-auto mt-5">Obviously I'm a Web Designer. Experienced with all stages of the development cycle for dynamic web projects.</p>
                         <ul class="list-unstyled mb-0 mt-4 social-icon">
@@ -1273,8 +1276,21 @@
         <script src="js/jquery-twennmax.init.js"></script>
         <!-- Feather icon -->
         <script src="js/feather.min.js"></script>
+        <!-- Typed -->
+        <script src="js/typed.js"></script>
+        <script src="js/typed.init.js"></script>
+        <!-- Animation -->
+        <script src="js/aos.js "></script>
         <!-- Main Js -->
         <script src="js/app.js"></script>
+
+        <!-- Animation Js -->
+        <script>
+            AOS.init({
+                easing: 'ease-in-out-sine',
+                duration: 1000
+            });
+        </script>
     </body>
 
 </html>

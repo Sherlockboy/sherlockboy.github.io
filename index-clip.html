@@ -46,9 +46,9 @@
         
         <!-- Navbar Start -->
         <nav class="navbar navbar-expand-lg fixed-top navbar-custom navbar-light sticky">
-    		<div class="container">
-                <a class="navbar-brand" href="#">
-                    <img src="images/logo.png" height="15" alt="">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/logo.png" height="16" alt="">
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                     <span data-feather="menu" class="fea icon-md"></span>
@@ -100,22 +100,27 @@
                     </ul>
                 </div> 
             </div><!--end container-->
-		</nav><!--end navbar-->
+        </nav><!--end navbar-->
         <!-- Navbar End -->
 
         <!-- HOME START-->
-        <section class="bg-home bg-light d-table w-100" style="background-image:url('images/home/01.png')" id="home">
+        <section class="bg-home bg-light clip-home" id="home">
             <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-12">
-                        <div class="title-heading mt-5">
-                            <h6 class="sub-title">Looking for a Designer !</h6>
-                            <h1 class="heading text-primary mb-3">I'm Cristino Murphy</h1>
-                            <p class="para-desc text-muted">Obviously I'm a Web Designer. Web Developer with over 3 years of experience. Experienced with all stages of the development cycle for dynamic web projects.</p>
+                <div class="row mt-5 align-items-center">
+                    <div class="col-lg-7 col-md-7 mt-4 pt-2 mt-sm-0 pt-sm-0 order-2 order-md-1">
+                        <div class="title-heading text-center text-md-left">
+                            <h1 class="heading mb-3">I Am <span class="simple-text-rotate text-primary">Cristino, Developer, Freelancer</span></h1>
+                            <p class="text-muted h6 font-weight-normal">Obviously I'm a Web Designer. Web Developer with over 3 years of experience. Experienced with all stages of the development cycle for dynamic web projects.</p>
                             <div class="mt-4 pt-2">
                                 <a href="javascript:void(0)" class="btn btn-primary rounded mb-2 mr-2">Hire me</a>
                                 <a href="javascript:void(0)" class="btn btn-outline-primary rounded mb-2">Download CV <i data-feather="download" class="fea icon-sm"></i></a>
                             </div>
+                        </div>
+                    </div><!--end col-->
+
+                    <div class="col-lg-5 col-md-5 order-1 order-md-2">
+                        <div class="hero-img">
+                            <img src="images/home/hero.jpg" class="avatar avatar-lg rounded-circle mx-auto d-block shadow-lg img-thumbnail" alt="">
                         </div>
                     </div><!--end col-->
                 </div><!--end row-->
@@ -1273,6 +1278,9 @@
         <script src="js/jquery-twennmax.init.js"></script>
         <!-- Feather icon -->
         <script src="js/feather.min.js"></script>
+        <!-- Text rotate -->
+	    <script src="js/jquery.simple-text-rotator.js"></script>
+	    <script src="js/textrotate.init.js"></script>
         <!-- Main Js -->
         <script src="js/app.js"></script>
     </body>
