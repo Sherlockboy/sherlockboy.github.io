@@ -25,7 +25,8 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'linkedin', link: 'https://www.linkedin.com/in/khurshid-kobilov/' },
+      { icon: 'github', link: 'https://github.com/Sherlockboy' }
     ],
 
     footer: {
