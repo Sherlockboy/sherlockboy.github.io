@@ -3,12 +3,12 @@
 layout: home
 
 hero:
-  name: "Khurshid (Bek) Kobilov"
-  # text: "SWE Notes"
-  # tagline: My great project tagline
-  # image:
-  #   src: /images/khurshid_kobilov.jpg
-  #   alt: VitePress
+  name: "Hi! I'm Khurshid (Bek) Kobilov"
+  # text: ""
+  tagline: A Full-Stack Web Developer from Fergana
+  image:
+    src: /images/khurshid_kobilov.png
+    alt: Khurshidbek Kobilov
   # actions:
   #   - theme: brand
   #     text: Markdown Examples
@@ -18,13 +18,13 @@ hero:
   #     link: /api-examples
 ---
 
-## I'm a Full-Stack Developer working in Fergana, Uzbekistan.
-
 **`TL;DR`**
 
-- Working at **[Vention](https://ventionteams.com)**
 - I'm a Laravel Artisan and Big-Data enthusiast
-- Fan of **Martin Scorsese**, **Quentin Tarantino** and **Christopher Nolan**
 - Work with .php, .js, .sql, .aws
+- Working at **[Vention](https://ventionteams.com)**
+- Founder of **[PHP Jobs Uzbekistan](https://www.linkedin.com/company/php-jobs-uz/)** Community
+- Speaker at **[DevPev](https://www.linkedin.com/company/devpevuz/)**
+<!-- - Fan of **Martin Scorsese**, **Quentin Tarantino** and **Christopher Nolan** -->
 
-Follow me on LinkedIn at **[@khurshid-kobilov](https://www.linkedin.com/in/khurshid-kobilov/)** where I share engineering advises, dev tips, ideas, packages.
+<!-- Follow me on LinkedIn at **[@khurshid-kobilov](https://www.linkedin.com/in/khurshid-kobilov/)** where I share engineering advises, dev tips, ideas, packages. -->
