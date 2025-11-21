@@ -7,7 +7,7 @@ hero:
   # text: ""
   tagline: A Full-Stack Web Developer from Fergana
   image:
-    src: ./images/khurshid_kobilov.png
+    src: /khurshid_kobilov.png
     alt: Khurshidbek Kobilov
   # actions:
   #   - theme: brand
