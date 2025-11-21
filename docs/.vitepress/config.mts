@@ -7,22 +7,21 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      // { text: 'Home', link: '/' },
-      { text: 'Blog', link: '/markdown-examples' },
+      { text: 'Talks', link: '/talks' },
       { text: 'Projects', link: '/markdown-examples' },
+      { text: 'Blog', link: '/markdown-examples' },
       { text: 'Uses', link: '/markdown-examples' },
-      { text: 'Contact', link: '/markdown-examples' }
     ],
 
-    sidebar: [
-      {
-        text: 'Examples',
-        items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
-        ]
-      }
-    ],
+    // sidebar: [
+    //   {
+    //     text: 'Examples',
+    //     items: [
+    //       { text: 'Markdown Examples', link: '/markdown-examples' },
+    //       { text: 'Runtime API Examples', link: '/api-examples' }
+    //     ]
+    //   }
+    // ],
 
     socialLinks: [
       { icon: 'linkedin', link: 'https://www.linkedin.com/in/khurshid-kobilov/' },
